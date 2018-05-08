@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/fintxt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Date(dd/MM/yyyy) "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/abc_search_url_text_holo" />
+
+    <Button
+        android:id="@+id/fin"
+        android:layout_marginTop="20dp"
+         android:layout_marginLeft="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search" 
+         android:textColor="@color/white"
+        android:textStyle="bold" 
+        android:background="@color/pink_A200"
+        android:textSize="18sp"/>
+
+</LinearLayout>
